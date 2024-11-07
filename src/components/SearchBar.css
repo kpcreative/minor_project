@@ -1,0 +1,32 @@
+.input-group {
+  width: 100%; /* Ensure input group takes full width */
+}
+
+.input-group-text {
+  background-color: white;
+  border-right: none;
+  display: flex; /* Align icon vertically */
+  align-items: center; /* Center icon vertically */
+  height: 54px; /* Set a fixed height for consistency */
+}
+
+.form-control {
+  border-left: none;
+  height: 54px; /* Match the height with input-group-text */
+}
+
+.row {
+  margin: 0; /* Remove default row margins */
+}
+
+.col-md-3, .col-md-6 {
+  display: flex; /* Use flexbox to align items */
+}
+
+.col-md-3 {
+  justify-content: center; /* Center the contents horizontally */
+}
+
+.col-md-6 {
+  justify-content: center; /* Center the contents horizontally */
+}

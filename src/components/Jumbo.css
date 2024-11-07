@@ -1,0 +1,168 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    line-height: 1;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f0f0f5;
+    font-family: Lato, Verdana, sans-serif;
+    color: #414146;
+}
+
+/* Jumbo Section */
+.c-jumbo {
+    background-color: #283272;
+    padding: 20px;
+    color: #fff;
+}
+
+.c-jumbo__banner {
+    text-align: center;
+}
+
+.c-jumbo__header_container {
+    margin-bottom: 10px;
+}
+
+.c-jumbo__header {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.c-jumbo__subheading {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Omni Search */
+.c-omni-container--desktop {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.c-omni {
+    display: flex;
+    gap: 10px;
+}
+
+.c-omni__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.c-omni-searchbox_wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.c-omni-searchbox {
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.c-omni-searchbox__icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+/* Popular Searches */
+.c-popular-searches {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #e0e0e0;
+}
+
+.c-popular-searches__item {
+    color: #ffffff;
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.c-popular-searches__item:hover {
+    text-decoration: underline;
+}
+
+.u-d-inline {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.icon-ic_down_cheveron {
+    font-size: 14px;
+ 
+}
+
+/* Icon List Section */
+.c-icon-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.c-icon {
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.c-icon__img {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.c-offer-tag {
+    background-color: #ff6b6b;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 10px;
+}
+
+.tab-offer {
+    position: relative;
+}
+
+.tab-offer .c-offer-tag {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+/* My Doctors Section */
+.mydoctors-tab-new {
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.c-my-doctors {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    color: #283272;
+    font-size: 16px;
+    font-weight: bold;
+}

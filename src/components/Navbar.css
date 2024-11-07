@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #0073e6;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    color: white;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar-links li {
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+  }
+  .navbar {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Add shadow to the navbar */
+  }
+  
+  .navbar-brand img {
+    height: 30px;
+  }
+  
+  

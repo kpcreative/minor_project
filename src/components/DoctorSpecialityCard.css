@@ -1,0 +1,28 @@
+.card {
+    text-align: center;
+    margin: 1rem;
+    width: 100%; /* Use full width of its container */
+    max-width: 10rem; /* Keep the maximum width */
+    flex: 1 1 auto; /* Allow the card to grow and shrink */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visual */
+    transition: transform 0.2s; /* Animation for hover effect */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  .card-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px; /* Adjust the height to match your design */
+  }
+  
+  .card-img-top {
+    max-width: 100%; /* Make the image responsive */
+    max-height: 100%; /* Ensure it does not exceed the container */
+    width: auto; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
+  }
+  

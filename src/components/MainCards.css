@@ -1,0 +1,66 @@
+.container {
+  max-width: 100%;
+}
+
+.row {
+  justify-content: center; /* Centers the row contents */
+  margin: 0; /* Remove default margins */
+}
+
+.col-md-3 {
+  display: flex; /* Enable flexbox */
+  justify-content: center; /* Center the card horizontally */
+  padding: 10px; /* Adjust padding as needed */
+}
+
+.card-our-offerings {
+  width: 100%; /* Use full width of the column */
+  max-width: 220px; /* Maximum width for cards */
+  height: 290px; /* Fixed height for uniformity */
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden;
+  margin: 0 auto; /* Center the card */
+}
+
+.card-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.img-wrapper {
+  background-color: #AFCFED;
+  padding: 12px 0; /* Adjust padding for better alignment */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.card_img {
+  width: 100%; /* Ensure image takes up full width of container */
+  height: 160px; /* Set a fixed height */
+  object-fit: cover; /* Ensure image scales and fits within the specified height */
+  border-radius: 8px; /* Optional: adds rounded corners for a cleaner look */
+}
+
+.info {
+  padding: 10px;
+}
+
+.row-1 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #333;
+  margin-top: 10px;
+}
+
+.row-2 {
+  font-size: 14px;
+  color: #777;
+}

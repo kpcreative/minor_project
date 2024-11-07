@@ -1,0 +1,15 @@
+.consultation-page {
+    margin-bottom: 2rem;
+  }
+  
+  .specialties-carousel, .articles-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .specialty-card, .article-card {
+    text-align: center;
+    border: none;
+  }
+  
